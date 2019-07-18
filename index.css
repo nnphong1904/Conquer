@@ -17,8 +17,13 @@
     line-height: 20px;
     text-transform: capitalize;
 }
+@media(max-width:788px){
+    .navbar-expand-md .navbar-nav .nav-item .nav-link{
+        font-size: 16px;
+    }
+}
 
-@media(max-width:768px){
+@media(max-width:767.98px){
     .navbar-expand-md .navbar-nav .nav-item .nav-link{
         font-family: 'Open Sans',sans-serif;
         font-size: 16px;
@@ -57,6 +62,7 @@
     background-image: url(./image/bg-1.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: scroll;
 }
 #section1 h1{
     color: white;
@@ -84,3 +90,91 @@
         height: 75vh;
     }
 }
+
+/*****************section2*********************/
+#section2{
+    padding-top: 70px;
+}
+#section2 img{
+    max-width: 100%;
+}
+/*--------------section2-feature--------------*/
+#section2 .feature-content{
+    padding-bottom: 40px;
+    background-color: #F2F2F2;
+}
+#section2 .btn-success{
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: capitalize;
+    width: fit-content;
+    font-family: 'Open Sans',sans-serif;
+
+}
+#section2 .btn-success:focus{
+    outline: 0;
+    box-shadow: none;
+}
+#section2 .green-btn{
+    background-color: #178A27;
+}
+#section2 .green-btn:hover{
+    outline: 0;
+    background: #449D44;
+}
+
+#section2 .blue-btn{
+    background:#1686C1;
+}
+#section2 .blue-btn:hover{
+    background: #31B0D5;
+}
+#section2 .red-btn{
+    background: #852406;
+}
+#section2 .red-btn:hover{
+    background: #C9302C;
+}
+#section2 .green-title{
+    color: #178A27;
+}
+#section2 .blue-title{
+    color :#1686C1;
+}
+#section2 .red-title{
+    color: #852406;
+}
+#section2 .feature-title{
+    padding: 0 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans',sans-serif;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+#section2 p{
+    margin:0;
+}
+#section2 .feature-description{
+    padding: 0 20px 35px;
+    text-align: left;
+    color: #333333;
+    font-size: 14px;
+    margin-top: 15px;
+}
+@media(max-width:767.98px){
+    #section2 .feature-content{
+        max-width: 360px;
+        margin: 0 auto 30px;
+    }
+    #section2 .feature-title{
+        text-align: center;
+    }
+    #section2 .feature-description{
+        text-align: center;
+    }
+}
+/*----------------section2-blog---------------*/
