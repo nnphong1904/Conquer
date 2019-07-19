@@ -241,3 +241,28 @@
         margin-left: 0;
     }
 }
+/**********section3**************/
+#section3{
+    height: 315.6px;
+    margin-top: 60px;
+}
+#section3 #services-area{
+    height: 100%;
+    background-image: url(./image/bg-2.jpg);
+    background-size: auto;
+    background-position: top;
+   
+    display: flex;
+    align-items: center;
+}
+
+#section3 #services-area h1{
+    color: white;
+    font-size: 36px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px #aaa;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    font-family: 'Open Sans',sans-serif;
+}
