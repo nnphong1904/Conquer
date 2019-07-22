@@ -30,7 +30,8 @@ window.addEventListener('scroll',function(){
 })
 
 const section3Background=document.getElementById('services-area');
+
 window.addEventListener('scroll',function(){
-    section3Background.style.backgroundPositionY=this.window.pageYOffset*0.75+ "px";
+    section3Background.style.backgroundPositionY=this.window.pageYOffset*0.3+ "px";
+    this.console.log(section3Background.style.backgroundPositionY);
 })
-console.log(window.pageYOffset);
